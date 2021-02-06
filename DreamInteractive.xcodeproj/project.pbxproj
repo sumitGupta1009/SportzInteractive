@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F3AD220204AD605B7284521 /* libPods-DreamInteractive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38434B46B6BD5982D15001E8 /* libPods-DreamInteractive.a */; };
+		F766F61F25CE5FF800923C95 /* SumaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F61D25CE5FF800923C95 /* SumaryViewController.swift */; };
+		F766F62025CE5FF800923C95 /* SumaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F61E25CE5FF800923C95 /* SumaryViewController.xib */; };
+		F766F62825CE602500923C95 /* ScoreCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F62625CE602500923C95 /* ScoreCardViewController.swift */; };
+		F766F62925CE602500923C95 /* ScoreCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F62725CE602500923C95 /* ScoreCardViewController.xib */; };
+		F766F63325CE604800923C95 /* MatchInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F63125CE604800923C95 /* MatchInfoViewController.swift */; };
+		F766F63425CE604800923C95 /* MatchInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F63225CE604800923C95 /* MatchInfoViewController.xib */; };
+		F766F63E25CE608500923C95 /* CommentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F63C25CE608500923C95 /* CommentaryViewController.swift */; };
+		F766F63F25CE608500923C95 /* CommentaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F63D25CE608500923C95 /* CommentaryViewController.xib */; };
+		F766F64D25CE8EB500923C95 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */; };
+		F7A907D425CD6C54000BE3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */; };
+		F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D725CD6C54000BE3E2 /* ViewController.swift */; };
+		F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A907D925CD6C54000BE3E2 /* Main.storyboard */; };
+		F7A907DE25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A907DC25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld */; };
+		F7A907E025CD6C55000BE3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A907DF25CD6C55000BE3E2 /* Assets.xcassets */; };
+		F7A907E325CD6C55000BE3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A907E125CD6C55000BE3E2 /* LaunchScreen.storyboard */; };
+		F7A907EE25CD6C55000BE3E2 /* DreamInteractiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907ED25CD6C55000BE3E2 /* DreamInteractiveTests.swift */; };
+		F7A907F925CD6C55000BE3E2 /* DreamInteractiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907F825CD6C55000BE3E2 /* DreamInteractiveUITests.swift */; };
+		F7A9080B25CD6CF7000BE3E2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9080A25CD6CF7000BE3E2 /* Service.swift */; };
+		F7A9081925CD84FF000BE3E2 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9081825CD84FE000BE3E2 /* TabItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7A907EA25CD6C55000BE3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A907C825CD6C54000BE3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A907CF25CD6C54000BE3E2;
+			remoteInfo = DreamInteractive;
+		};
+		F7A907F525CD6C55000BE3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A907C825CD6C54000BE3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A907CF25CD6C54000BE3E2;
+			remoteInfo = DreamInteractive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38434B46B6BD5982D15001E8 /* libPods-DreamInteractive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamInteractive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD90B10E99B40121B8337B59 /* Pods-DreamInteractive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInteractive.release.xcconfig"; path = "Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive.release.xcconfig"; sourceTree = "<group>"; };
+		D207210E187768C15A28FFE3 /* Pods-DreamInteractive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInteractive.debug.xcconfig"; path = "Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive.debug.xcconfig"; sourceTree = "<group>"; };
+		F766F61D25CE5FF800923C95 /* SumaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumaryViewController.swift; sourceTree = "<group>"; };
+		F766F61E25CE5FF800923C95 /* SumaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SumaryViewController.xib; sourceTree = "<group>"; };
+		F766F62625CE602500923C95 /* ScoreCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardViewController.swift; sourceTree = "<group>"; };
+		F766F62725CE602500923C95 /* ScoreCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreCardViewController.xib; sourceTree = "<group>"; };
+		F766F63125CE604800923C95 /* MatchInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoViewController.swift; sourceTree = "<group>"; };
+		F766F63225CE604800923C95 /* MatchInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchInfoViewController.xib; sourceTree = "<group>"; };
+		F766F63C25CE608500923C95 /* CommentaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaryViewController.swift; sourceTree = "<group>"; };
+		F766F63D25CE608500923C95 /* CommentaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentaryViewController.xib; sourceTree = "<group>"; };
+		F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F7A907D025CD6C54000BE3E2 /* DreamInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7A907D725CD6C54000BE3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7A907DA25CD6C54000BE3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A907DD25CD6C54000BE3E2 /* DreamInteractive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamInteractive.xcdatamodel; sourceTree = "<group>"; };
+		F7A907DF25CD6C55000BE3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A907E225CD6C55000BE3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A907E425CD6C55000BE3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A907E925CD6C55000BE3E2 /* DreamInteractiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamInteractiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A907ED25CD6C55000BE3E2 /* DreamInteractiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamInteractiveTests.swift; sourceTree = "<group>"; };
+		F7A907EF25CD6C55000BE3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A907F425CD6C55000BE3E2 /* DreamInteractiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamInteractiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A907F825CD6C55000BE3E2 /* DreamInteractiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamInteractiveUITests.swift; sourceTree = "<group>"; };
+		F7A907FA25CD6C55000BE3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A9080A25CD6CF7000BE3E2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F7A9081825CD84FE000BE3E2 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A907CD25CD6C54000BE3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3AD220204AD605B7284521 /* libPods-DreamInteractive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907E625CD6C55000BE3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907F125CD6C55000BE3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0DA7712EA373C25D04EAA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D207210E187768C15A28FFE3 /* Pods-DreamInteractive.debug.xcconfig */,
+				BD90B10E99B40121B8337B59 /* Pods-DreamInteractive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		24A74A9D40AB7D5AFCF50F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38434B46B6BD5982D15001E8 /* libPods-DreamInteractive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F766F61C25CE5FCD00923C95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F766F63B25CE606200923C95 /* Commentary */,
+				F766F63025CE602B00923C95 /* MatchInfo */,
+				F766F62525CE600C00923C95 /* ScoreCard */,
+				F766F62425CE5FFE00923C95 /* Summary */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F766F62425CE5FFE00923C95 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				F766F61D25CE5FF800923C95 /* SumaryViewController.swift */,
+				F766F61E25CE5FF800923C95 /* SumaryViewController.xib */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		F766F62525CE600C00923C95 /* ScoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				F766F62625CE602500923C95 /* ScoreCardViewController.swift */,
+				F766F62725CE602500923C95 /* ScoreCardViewController.xib */,
+			);
+			path = ScoreCard;
+			sourceTree = "<group>";
+		};
+		F766F63025CE602B00923C95 /* MatchInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F766F63125CE604800923C95 /* MatchInfoViewController.swift */,
+				F766F63225CE604800923C95 /* MatchInfoViewController.xib */,
+			);
+			path = MatchInfo;
+			sourceTree = "<group>";
+		};
+		F766F63B25CE606200923C95 /* Commentary */ = {
+			isa = PBXGroup;
+			children = (
+				F766F63C25CE608500923C95 /* CommentaryViewController.swift */,
+				F766F63D25CE608500923C95 /* CommentaryViewController.xib */,
+			);
+			path = Commentary;
+			sourceTree = "<group>";
+		};
+		F766F64B25CE8E7C00923C95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F7A907C725CD6C54000BE3E2 = {
+			isa = PBXGroup;
+			children = (
+				F7A907D225CD6C54000BE3E2 /* DreamInteractive */,
+				F7A907EC25CD6C55000BE3E2 /* DreamInteractiveTests */,
+				F7A907F725CD6C55000BE3E2 /* DreamInteractiveUITests */,
+				F7A907D125CD6C54000BE3E2 /* Products */,
+				1B0DA7712EA373C25D04EAA4 /* Pods */,
+				24A74A9D40AB7D5AFCF50F90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A907D125CD6C54000BE3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A907D025CD6C54000BE3E2 /* DreamInteractive.app */,
+				F7A907E925CD6C55000BE3E2 /* DreamInteractiveTests.xctest */,
+				F7A907F425CD6C55000BE3E2 /* DreamInteractiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A907D225CD6C54000BE3E2 /* DreamInteractive */ = {
+			isa = PBXGroup;
+			children = (
+				F766F61C25CE5FCD00923C95 /* ViewController */,
+				F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */,
+				F7A907D725CD6C54000BE3E2 /* ViewController.swift */,
+				F7A9080925CD6C73000BE3E2 /* Helper */,
+				F7A907D925CD6C54000BE3E2 /* Main.storyboard */,
+				F7A907DF25CD6C55000BE3E2 /* Assets.xcassets */,
+				F7A907E125CD6C55000BE3E2 /* LaunchScreen.storyboard */,
+				F7A907E425CD6C55000BE3E2 /* Info.plist */,
+				F7A907DC25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld */,
+			);
+			path = DreamInteractive;
+			sourceTree = "<group>";
+		};
+		F7A907EC25CD6C55000BE3E2 /* DreamInteractiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A907ED25CD6C55000BE3E2 /* DreamInteractiveTests.swift */,
+				F7A907EF25CD6C55000BE3E2 /* Info.plist */,
+			);
+			path = DreamInteractiveTests;
+			sourceTree = "<group>";
+		};
+		F7A907F725CD6C55000BE3E2 /* DreamInteractiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A907F825CD6C55000BE3E2 /* DreamInteractiveUITests.swift */,
+				F7A907FA25CD6C55000BE3E2 /* Info.plist */,
+			);
+			path = DreamInteractiveUITests;
+			sourceTree = "<group>";
+		};
+		F7A9080925CD6C73000BE3E2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F766F64B25CE8E7C00923C95 /* Extension */,
+				F7A9080A25CD6CF7000BE3E2 /* Service.swift */,
+				F7A9081825CD84FE000BE3E2 /* TabItem.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A907CF25CD6C54000BE3E2 /* DreamInteractive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A907FD25CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractive" */;
+			buildPhases = (
+				C8581A1A605BCDCFDDC99020 /* [CP] Check Pods Manifest.lock */,
+				F7A907CC25CD6C54000BE3E2 /* Sources */,
+				F7A907CD25CD6C54000BE3E2 /* Frameworks */,
+				F7A907CE25CD6C54000BE3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamInteractive;
+			productName = DreamInteractive;
+			productReference = F7A907D025CD6C54000BE3E2 /* DreamInteractive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7A907E825CD6C55000BE3E2 /* DreamInteractiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A9080025CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractiveTests" */;
+			buildPhases = (
+				F7A907E525CD6C55000BE3E2 /* Sources */,
+				F7A907E625CD6C55000BE3E2 /* Frameworks */,
+				F7A907E725CD6C55000BE3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A907EB25CD6C55000BE3E2 /* PBXTargetDependency */,
+			);
+			name = DreamInteractiveTests;
+			productName = DreamInteractiveTests;
+			productReference = F7A907E925CD6C55000BE3E2 /* DreamInteractiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7A907F325CD6C55000BE3E2 /* DreamInteractiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A9080325CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractiveUITests" */;
+			buildPhases = (
+				F7A907F025CD6C55000BE3E2 /* Sources */,
+				F7A907F125CD6C55000BE3E2 /* Frameworks */,
+				F7A907F225CD6C55000BE3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A907F625CD6C55000BE3E2 /* PBXTargetDependency */,
+			);
+			name = DreamInteractiveUITests;
+			productName = DreamInteractiveUITests;
+			productReference = F7A907F425CD6C55000BE3E2 /* DreamInteractiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A907C825CD6C54000BE3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F7A907CF25CD6C54000BE3E2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F7A907E825CD6C55000BE3E2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F7A907CF25CD6C54000BE3E2;
+					};
+					F7A907F325CD6C55000BE3E2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F7A907CF25CD6C54000BE3E2;
+					};
+				};
+			};
+			buildConfigurationList = F7A907CB25CD6C54000BE3E2 /* Build configuration list for PBXProject "DreamInteractive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A907C725CD6C54000BE3E2;
+			productRefGroup = F7A907D125CD6C54000BE3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A907CF25CD6C54000BE3E2 /* DreamInteractive */,
+				F7A907E825CD6C55000BE3E2 /* DreamInteractiveTests */,
+				F7A907F325CD6C55000BE3E2 /* DreamInteractiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A907CE25CD6C54000BE3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A907E325CD6C55000BE3E2 /* LaunchScreen.storyboard in Resources */,
+				F7A907E025CD6C55000BE3E2 /* Assets.xcassets in Resources */,
+				F766F63F25CE608500923C95 /* CommentaryViewController.xib in Resources */,
+				F766F62925CE602500923C95 /* ScoreCardViewController.xib in Resources */,
+				F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */,
+				F766F62025CE5FF800923C95 /* SumaryViewController.xib in Resources */,
+				F766F63425CE604800923C95 /* MatchInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907E725CD6C55000BE3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907F225CD6C55000BE3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8581A1A605BCDCFDDC99020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamInteractive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A907CC25CD6C54000BE3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A9080B25CD6CF7000BE3E2 /* Service.swift in Sources */,
+				F766F64D25CE8EB500923C95 /* UIViewController+Extension.swift in Sources */,
+				F7A9081925CD84FF000BE3E2 /* TabItem.swift in Sources */,
+				F766F61F25CE5FF800923C95 /* SumaryViewController.swift in Sources */,
+				F7A907DE25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld in Sources */,
+				F766F63325CE604800923C95 /* MatchInfoViewController.swift in Sources */,
+				F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */,
+				F766F62825CE602500923C95 /* ScoreCardViewController.swift in Sources */,
+				F766F63E25CE608500923C95 /* CommentaryViewController.swift in Sources */,
+				F7A907D425CD6C54000BE3E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907E525CD6C55000BE3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A907EE25CD6C55000BE3E2 /* DreamInteractiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A907F025CD6C55000BE3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A907F925CD6C55000BE3E2 /* DreamInteractiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7A907EB25CD6C55000BE3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A907CF25CD6C54000BE3E2 /* DreamInteractive */;
+			targetProxy = F7A907EA25CD6C55000BE3E2 /* PBXContainerItemProxy */;
+		};
+		F7A907F625CD6C55000BE3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A907CF25CD6C54000BE3E2 /* DreamInteractive */;
+			targetProxy = F7A907F525CD6C55000BE3E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7A907D925CD6C54000BE3E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A907DA25CD6C54000BE3E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7A907E125CD6C55000BE3E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A907E225CD6C55000BE3E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A907FB25CD6C55000BE3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7A907FC25CD6C55000BE3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A907FE25CD6C55000BE3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D207210E187768C15A28FFE3 /* Pods-DreamInteractive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A907FF25CD6C55000BE3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD90B10E99B40121B8337B59 /* Pods-DreamInteractive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7A9080125CD6C55000BE3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInteractive.app/DreamInteractive";
+			};
+			name = Debug;
+		};
+		F7A9080225CD6C55000BE3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInteractive.app/DreamInteractive";
+			};
+			name = Release;
+		};
+		F7A9080425CD6C55000BE3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamInteractive;
+			};
+			name = Debug;
+		};
+		F7A9080525CD6C55000BE3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578LXVWCVU;
+				INFOPLIST_FILE = DreamInteractiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.DreamInteractiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamInteractive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A907CB25CD6C54000BE3E2 /* Build configuration list for PBXProject "DreamInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A907FB25CD6C55000BE3E2 /* Debug */,
+				F7A907FC25CD6C55000BE3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A907FD25CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A907FE25CD6C55000BE3E2 /* Debug */,
+				F7A907FF25CD6C55000BE3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A9080025CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A9080125CD6C55000BE3E2 /* Debug */,
+				F7A9080225CD6C55000BE3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A9080325CD6C55000BE3E2 /* Build configuration list for PBXNativeTarget "DreamInteractiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A9080425CD6C55000BE3E2 /* Debug */,
+				F7A9080525CD6C55000BE3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7A907DC25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7A907DD25CD6C54000BE3E2 /* DreamInteractive.xcdatamodel */,
+			);
+			currentVersion = F7A907DD25CD6C54000BE3E2 /* DreamInteractive.xcdatamodel */;
+			path = DreamInteractive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7A907C825CD6C54000BE3E2 /* Project object */;
+}
