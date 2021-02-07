@@ -20,10 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tabBar.delegate = self
         title = "SportzInteractive"
-        ServiceInteractor.hitJson { [weak self] infoJson in
+        ServiceInteractor.hitJson { [weak self] infoJson, commentaryJson in
             guard let strongSelf = self else { return }
             if let infoVC = strongSelf.viewControllers.last as? MatchInfoViewController {
                 infoVC.infoTitles = infoJson
+            }
+            
+            if let commentaryVC = strongSelf.viewControllers[safe: TabItem.commentary.rawValue] as? CommentaryViewController {
+                commentaryVC.notesTitle = commentaryJson
             }
         }
     }

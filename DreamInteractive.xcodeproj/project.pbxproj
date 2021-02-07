@@ -23,6 +23,9 @@
 		F766F6B225D0475A00923C95 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6B125D0475A00923C95 /* Array+Extension.swift */; };
 		F766F6B825D04AC600923C95 /* MatchInfoReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */; };
 		F766F6B925D04AC600923C95 /* MatchInfoReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */; };
+		F766F6BF25D065C000923C95 /* TeamPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6BE25D065C000923C95 /* TeamPerformance.swift */; };
+		F766F6C825D07B0600923C95 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6C625D07B0600923C95 /* SummaryCell.swift */; };
+		F766F6C925D07B0600923C95 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F6C725D07B0600923C95 /* SummaryCell.xib */; };
 		F7A907D425CD6C54000BE3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */; };
 		F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D725CD6C54000BE3E2 /* ViewController.swift */; };
 		F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A907D925CD6C54000BE3E2 /* Main.storyboard */; };
@@ -71,6 +74,9 @@
 		F766F6B125D0475A00923C95 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoReusableView.swift; sourceTree = "<group>"; };
 		F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchInfoReusableView.xib; sourceTree = "<group>"; };
+		F766F6BE25D065C000923C95 /* TeamPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPerformance.swift; sourceTree = "<group>"; };
+		F766F6C625D07B0600923C95 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		F766F6C725D07B0600923C95 /* SummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryCell.xib; sourceTree = "<group>"; };
 		F7A907D025CD6C54000BE3E2 /* DreamInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A907D725CD6C54000BE3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -204,9 +210,19 @@
 				F766F6A325D041AE00923C95 /* InfoCollectionCell.xib */,
 				F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */,
 				F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */,
+				F766F6C625D07B0600923C95 /* SummaryCell.swift */,
+				F766F6C725D07B0600923C95 /* SummaryCell.xib */,
 			);
 			name = Cell;
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F766F6BD25D0644000923C95 /* Modal Class */ = {
+			isa = PBXGroup;
+			children = (
+				F766F6BE25D065C000923C95 /* TeamPerformance.swift */,
+			);
+			path = "Modal Class";
 			sourceTree = "<group>";
 		};
 		F7A907C725CD6C54000BE3E2 = {
@@ -269,6 +285,7 @@
 		F7A9080925CD6C73000BE3E2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				F766F6BD25D0644000923C95 /* Modal Class */,
 				F766F67525D022EB00923C95 /* TabItem */,
 				F766F64B25CE8E7C00923C95 /* Extension */,
 				F7A9080A25CD6CF7000BE3E2 /* Service.swift */,
@@ -385,6 +402,7 @@
 				F7A907E025CD6C55000BE3E2 /* Assets.xcassets in Resources */,
 				F766F63F25CE608500923C95 /* CommentaryViewController.xib in Resources */,
 				F766F62925CE602500923C95 /* ScoreCardViewController.xib in Resources */,
+				F766F6C925D07B0600923C95 /* SummaryCell.xib in Resources */,
 				F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */,
 				F766F62025CE5FF800923C95 /* SumaryViewController.xib in Resources */,
 				F766F6B925D04AC600923C95 /* MatchInfoReusableView.xib in Resources */,
@@ -462,9 +480,11 @@
 				F766F64D25CE8EB500923C95 /* UIViewController+Extension.swift in Sources */,
 				F7A9081925CD84FF000BE3E2 /* TabItem.swift in Sources */,
 				F766F61F25CE5FF800923C95 /* SumaryViewController.swift in Sources */,
+				F766F6BF25D065C000923C95 /* TeamPerformance.swift in Sources */,
 				F7A907DE25CD6C54000BE3E2 /* DreamInteractive.xcdatamodeld in Sources */,
 				F766F63325CE604800923C95 /* MatchInfoViewController.swift in Sources */,
 				F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */,
+				F766F6C825D07B0600923C95 /* SummaryCell.swift in Sources */,
 				F766F62825CE602500923C95 /* ScoreCardViewController.swift in Sources */,
 				F766F63E25CE608500923C95 /* CommentaryViewController.swift in Sources */,
 				F766F6B225D0475A00923C95 /* Array+Extension.swift in Sources */,

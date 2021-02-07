@@ -10,14 +10,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InfoCollectionCell" id="gTV-IL-0wX" customClass="InfoCollectionCell" customModule="DreamInteractive" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="255" height="50"/>
+            <rect key="frame" x="0.0" y="0.0" width="255" height="25"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="255" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="255" height="25"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnX-rN-gkQ">
-                        <rect key="frame" x="4" y="4" width="247" height="42"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnX-rN-gkQ">
+                        <rect key="frame" x="4" y="4" width="247" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -31,11 +31,11 @@
                 <constraint firstItem="TnX-rN-gkQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Vix-3a-O8j"/>
                 <constraint firstItem="TnX-rN-gkQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="q9V-Kl-svq"/>
             </constraints>
-            <size key="customSize" width="255" height="50"/>
+            <size key="customSize" width="255" height="29"/>
             <connections>
                 <outlet property="infoLabel" destination="TnX-rN-gkQ" id="NvM-wI-uyR"/>
             </connections>
-            <point key="canvasLocation" x="260.14492753623188" y="48.883928571428569"/>
+            <point key="canvasLocation" x="258.69565217391306" y="41.852678571428569"/>
         </collectionViewCell>
     </objects>
 </document>

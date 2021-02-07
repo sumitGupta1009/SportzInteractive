@@ -20,7 +20,8 @@ class InfoCollectionCell: UICollectionViewCell {
         // Initialization code
     }
 
-    func configCell(_ text: String) {
+    func configCell(_ text: String, alignment: NSTextAlignment = .center) {
         infoLabel.text = text
+        infoLabel.textAlignment = alignment
     }
 }
