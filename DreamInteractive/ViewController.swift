@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tabBar.delegate = self
         title = "SportzInteractive"
+        ServiceInteractor.hitJson { [weak self] infoJson in
+            guard let strongSelf = self else { return }
+            if let infoVC = strongSelf.viewControllers.last as? MatchInfoViewController {
+                infoVC.infoTitles = infoJson
+            }
+        }
     }
 
     override func viewDidLayoutSubviews() {
@@ -34,10 +40,11 @@ class ViewController: UIViewController {
         let width = max(view.frame.width, UIScreen.main.bounds.width)
         tabBar.items?.removeAll()
 
-        for (index, item) in tabItems.enumerated() {
-            let childViewController = addChildVC((self, item.viewController), frame: CGRect(x: width * CGFloat(index), y: 0, width: width, height: scrollView.frame.height), view: scrollView)
+        for model in tabItems.enumerated() {
+            print("\(model.element.tabItem)")
+            let childViewController = addChildVC((self, model.element.viewController), frame: CGRect(x: width * CGFloat(model.offset), y: 0, width: width, height: scrollView.frame.height), view: scrollView)
             viewControllers.append(childViewController)
-            tabBar.items?.append(item.tabItem)
+            tabBar.items?.append(model.element.tabItem)
         }
         scrollView.contentSize = CGSize(width: width * CGFloat(viewControllers.count), height: scrollView.frame.height)
     }

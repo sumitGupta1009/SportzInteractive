@@ -7,4 +7,5 @@ target 'DreamInteractive' do
   pod 'AlamofireImage', '~> 3.5'
   pod 'Kingfisher', '~> 6.0'
   pod 'Segmentio'
+  pod 'SwiftyJSON', '~> 4.0'
 end

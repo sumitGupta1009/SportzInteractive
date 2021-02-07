@@ -17,6 +17,12 @@
 		F766F63E25CE608500923C95 /* CommentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F63C25CE608500923C95 /* CommentaryViewController.swift */; };
 		F766F63F25CE608500923C95 /* CommentaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F63D25CE608500923C95 /* CommentaryViewController.xib */; };
 		F766F64D25CE8EB500923C95 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */; };
+		F766F6A425D041AE00923C95 /* InfoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6A225D041AE00923C95 /* InfoCollectionCell.swift */; };
+		F766F6A525D041AE00923C95 /* InfoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F6A325D041AE00923C95 /* InfoCollectionCell.xib */; };
+		F766F6AD25D043C500923C95 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6AC25D043C500923C95 /* UICollectionView+Extension.swift */; };
+		F766F6B225D0475A00923C95 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6B125D0475A00923C95 /* Array+Extension.swift */; };
+		F766F6B825D04AC600923C95 /* MatchInfoReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */; };
+		F766F6B925D04AC600923C95 /* MatchInfoReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */; };
 		F7A907D425CD6C54000BE3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */; };
 		F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A907D725CD6C54000BE3E2 /* ViewController.swift */; };
 		F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A907D925CD6C54000BE3E2 /* Main.storyboard */; };
@@ -59,6 +65,12 @@
 		F766F63C25CE608500923C95 /* CommentaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaryViewController.swift; sourceTree = "<group>"; };
 		F766F63D25CE608500923C95 /* CommentaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentaryViewController.xib; sourceTree = "<group>"; };
 		F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F766F6A225D041AE00923C95 /* InfoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCollectionCell.swift; sourceTree = "<group>"; };
+		F766F6A325D041AE00923C95 /* InfoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCollectionCell.xib; sourceTree = "<group>"; };
+		F766F6AC25D043C500923C95 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		F766F6B125D0475A00923C95 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoReusableView.swift; sourceTree = "<group>"; };
+		F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchInfoReusableView.xib; sourceTree = "<group>"; };
 		F7A907D025CD6C54000BE3E2 /* DreamInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A907D725CD6C54000BE3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				F766F64C25CE8EB500923C95 /* UIViewController+Extension.swift */,
+				F766F6AC25D043C500923C95 /* UICollectionView+Extension.swift */,
+				F766F6B125D0475A00923C95 /* Array+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -181,6 +195,18 @@
 				F7A9081825CD84FE000BE3E2 /* TabItem.swift */,
 			);
 			path = TabItem;
+			sourceTree = "<group>";
+		};
+		F766F6A125D0416700923C95 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F766F6A225D041AE00923C95 /* InfoCollectionCell.swift */,
+				F766F6A325D041AE00923C95 /* InfoCollectionCell.xib */,
+				F766F6B625D04AC600923C95 /* MatchInfoReusableView.swift */,
+				F766F6B725D04AC600923C95 /* MatchInfoReusableView.xib */,
+			);
+			name = Cell;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		F7A907C725CD6C54000BE3E2 = {
@@ -208,6 +234,7 @@
 		F7A907D225CD6C54000BE3E2 /* DreamInteractive */ = {
 			isa = PBXGroup;
 			children = (
+				F766F6A125D0416700923C95 /* Cell */,
 				F766F61C25CE5FCD00923C95 /* ViewController */,
 				F7A907D325CD6C54000BE3E2 /* AppDelegate.swift */,
 				F7A907D725CD6C54000BE3E2 /* ViewController.swift */,
@@ -360,7 +387,9 @@
 				F766F62925CE602500923C95 /* ScoreCardViewController.xib in Resources */,
 				F7A907DB25CD6C54000BE3E2 /* Main.storyboard in Resources */,
 				F766F62025CE5FF800923C95 /* SumaryViewController.xib in Resources */,
+				F766F6B925D04AC600923C95 /* MatchInfoReusableView.xib in Resources */,
 				F766F63425CE604800923C95 /* MatchInfoViewController.xib in Resources */,
+				F766F6A525D041AE00923C95 /* InfoCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +456,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F766F6AD25D043C500923C95 /* UICollectionView+Extension.swift in Sources */,
+				F766F6A425D041AE00923C95 /* InfoCollectionCell.swift in Sources */,
 				F7A9080B25CD6CF7000BE3E2 /* Service.swift in Sources */,
 				F766F64D25CE8EB500923C95 /* UIViewController+Extension.swift in Sources */,
 				F7A9081925CD84FF000BE3E2 /* TabItem.swift in Sources */,
@@ -436,7 +467,9 @@
 				F7A907D825CD6C54000BE3E2 /* ViewController.swift in Sources */,
 				F766F62825CE602500923C95 /* ScoreCardViewController.swift in Sources */,
 				F766F63E25CE608500923C95 /* CommentaryViewController.swift in Sources */,
+				F766F6B225D0475A00923C95 /* Array+Extension.swift in Sources */,
 				F7A907D425CD6C54000BE3E2 /* AppDelegate.swift in Sources */,
+				F766F6B825D04AC600923C95 /* MatchInfoReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

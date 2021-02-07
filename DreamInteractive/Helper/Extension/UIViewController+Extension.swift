@@ -37,9 +37,13 @@ extension UIColor {
     }
 
     class var demBlack: UIColor {
-        return UIColor(red: 3 / 255, green: 3 / 255, blue: 3 / 255, alpha: 1.0)
+        return UIColor(red: 32 / 255, green: 32 / 255, blue: 32 / 255, alpha: 1.0)
     }
 
+    class var grayBack: UIColor {
+        return UIColor(red: 245 / 255, green: 245 / 255, blue: 245 / 255, alpha: 1.0)
+    }
+    
     class var coral: UIColor {
         return UIColor(red: 223 / 255, green: 54 / 255, blue: 44 / 255, alpha: 1.0)
     }
