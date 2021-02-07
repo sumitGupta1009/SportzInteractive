@@ -9,19 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var tabBar: UITabBar!
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var scrollView: UIScrollView!
-    
+    @IBOutlet var contentView: UIView!
+    @IBOutlet var scrollView: UIScrollView!
+
     let tabItems: [TabItem] = [.summary, .scoreCard, .commentary, .mathcInfo]
     var viewControllers: [UIViewController] = []
     var initialLoad: Bool = true
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBar.delegate = self
-        
+        tabBar.delegate = self
+        title = "SportzInteractive"
     }
-    
+
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         if initialLoad {
@@ -29,25 +29,24 @@ class ViewController: UIViewController {
             initialLoad = false
         }
     }
-    
+
     fileprivate func addChildViewControllers() {
-        let width = max(self.view.frame.width, UIScreen.main.bounds.width)
-        self.tabBar.items?.removeAll()
-        
-        for (index, item)in tabItems.enumerated() {
-            let childViewController = self.addChildVC((self, item.viewController), frame: CGRect(x: width * CGFloat(index), y: 0, width: width, height: scrollView.frame.height), view: scrollView)
+        let width = max(view.frame.width, UIScreen.main.bounds.width)
+        tabBar.items?.removeAll()
+
+        for (index, item) in tabItems.enumerated() {
+            let childViewController = addChildVC((self, item.viewController), frame: CGRect(x: width * CGFloat(index), y: 0, width: width, height: scrollView.frame.height), view: scrollView)
             viewControllers.append(childViewController)
             tabBar.items?.append(item.tabItem)
         }
         scrollView.contentSize = CGSize(width: width * CGFloat(viewControllers.count), height: scrollView.frame.height)
     }
-    
-    func onSelection(index: Int) {
-    }
+
+    func onSelection(index _: Int) {}
 }
 
 extension ViewController: UITabBarDelegate {
-    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+    func tabBar(_: UITabBar, didSelect item: UITabBarItem) {
         scrollView.setContentOffset(CGPoint(x: scrollView.frame.width * CGFloat(item.tag), y: 0), animated: true)
     }
 }

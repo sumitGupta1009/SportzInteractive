@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive-resources.sh
+${PODS_ROOT}/Segmentio/Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib
+${PODS_ROOT}/Segmentio/Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib
+${PODS_CONFIGURATION_BUILD_DIR}/Segmentio/Segmentio.bundle

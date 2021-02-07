@@ -3,12 +3,14 @@ PODS:
   - AlamofireImage (3.6.0):
     - Alamofire (~> 4.9)
   - Kingfisher (6.1.0)
+  - Segmentio (4.1)
   - SwiftFormat/CLI (0.47.11)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage (~> 3.5)
   - Kingfisher (~> 6.0)
+  - Segmentio
   - SwiftFormat/CLI
 
 SPEC REPOS:
@@ -16,14 +18,16 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - Kingfisher
+    - Segmentio
     - SwiftFormat
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
   SwiftFormat: 6f2fd4689e09959ba5b690ab950279e33eb6441e
 
-PODFILE CHECKSUM: ff11f9de6fd77d72fbe10f8d628ad55abb0bbf59
+PODFILE CHECKSUM: 7070303e9c2c2313f2e23d17a03baa6f5c2fab80
 
 COCOAPODS: 1.9.3

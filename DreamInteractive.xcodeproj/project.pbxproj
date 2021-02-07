@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -175,6 +175,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		F766F67525D022EB00923C95 /* TabItem */ = {
+			isa = PBXGroup;
+			children = (
+				F7A9081825CD84FE000BE3E2 /* TabItem.swift */,
+			);
+			path = TabItem;
+			sourceTree = "<group>";
+		};
 		F7A907C725CD6C54000BE3E2 = {
 			isa = PBXGroup;
 			children = (
@@ -234,9 +242,9 @@
 		F7A9080925CD6C73000BE3E2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				F766F67525D022EB00923C95 /* TabItem */,
 				F766F64B25CE8E7C00923C95 /* Extension */,
 				F7A9080A25CD6CF7000BE3E2 /* Service.swift */,
-				F7A9081825CD84FE000BE3E2 /* TabItem.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 				F7A907CC25CD6C54000BE3E2 /* Sources */,
 				F7A907CD25CD6C54000BE3E2 /* Frameworks */,
 				F7A907CE25CD6C54000BE3E2 /* Resources */,
+				A7BB7CD30F69DB64F2BE09AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,6 +381,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A7BB7CD30F69DB64F2BE09AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DreamInteractive/Pods-DreamInteractive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C8581A1A605BCDCFDDC99020 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
